@@ -1,0 +1,17 @@
+[theme]
+
+# Cor primária pra maioria dos elementos.
+primaryColor = "#4CAF50"
+
+# Cor do background.
+backgroundColor = "#121212"
+
+# Cor da sidebar e essas paradas ae.
+secondaryBackgroundColor = "#1E1E1E"
+
+# Cor de basicamente todo texto.
+textColor = "#E0E0E0"
+
+# Familia de fontes, ex "sans serif", "serif", ou "monospace".
+# Default: "sans serif"
+font = "sans serif"
