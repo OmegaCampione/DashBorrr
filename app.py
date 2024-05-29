@@ -24,7 +24,7 @@ def pegar_dados_do_excel():
 df = pegar_dados_do_excel()
 
 # ---sidebar---#
-st.sidebar.header("Filtro Aqui")
+st.sidebar.header("Filtre Aqui:")
 gerente = st.sidebar.multiselect(
     "Selecione o Gerente",
     options=df["GERENTE"].unique(),
@@ -32,13 +32,13 @@ gerente = st.sidebar.multiselect(
 )
 
 ano = st.sidebar.multiselect(
-    "Selecione o Ano",
+    "Selecione o Ano:",
     options=df["ANO"].unique(),
     default=df["ANO"].unique()
 )
 
 categoria = st.sidebar.multiselect(
-    "Selecione a Categoria",
+    "Selecione a Categoria:",
     options=df["CATEGORIA"].unique(),
     default=df["CATEGORIA"].unique()
 )
